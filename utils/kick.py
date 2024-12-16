@@ -20,11 +20,6 @@ threads_count = min(multiprocessing.cpu_count(), max_threads)
 # [ OUI Numbers for Mac Address ]
 SPOOFED_MACS = [
     generate_mac_address("Apple"),
-    generate_mac_address("HP"),
-    generate_mac_address("Google"),
-    generate_mac_address("Samsung"),
-    generate_mac_address("Sony"),
-    generate_mac_address("LG")
     # Add more MAC addresses here if needed
 ]
 
